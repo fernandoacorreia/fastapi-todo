@@ -1,3 +1,8 @@
+PyJWT>=2.8.0
+bcrypt
 fastapi
+passlib
+pydantic[email]
+python-multipart
 sqlalchemy
 uvicorn
