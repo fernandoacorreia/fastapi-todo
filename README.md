@@ -30,6 +30,18 @@ curl -X POST "http://localhost:8000/todos/" -H "Content-Type: application/json" 
 curl "http://localhost:8000/todos/"
 ```
 
+### Update a TODO
+
+```shell
+curl -X PUT "http://localhost:8000/todos/1" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "title": "Only Title and Priority Updated",
+    "description": null,
+    "priority": 4
+  }'
+```
+
 ### Mark TODO as complete
 
 ```shell
