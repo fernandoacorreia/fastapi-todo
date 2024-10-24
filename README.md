@@ -73,3 +73,10 @@ curl -X PUT "http://localhost:8000/todos/1" \
 curl -X PATCH "http://localhost:8000/todos/1/complete" \
   -H "Authorization: Bearer $ACCESS_TOKEN"
 ```
+
+### Delete a TODO
+
+```shell
+curl -X DELETE "http://localhost:8000/todos/1" \
+  -H "Authorization: Bearer $ACCESS_TOKEN"
+```
